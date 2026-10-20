@@ -10,9 +10,9 @@ export default defineConfig({
       { text: 'Обо мне', link: '/about' },
       { text: 'Резюме', link: '/cv' }
     ],
-    // Стандартный локальный поиск
-    search: {
-      provider: 'local'
-    }
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
   }
 })
