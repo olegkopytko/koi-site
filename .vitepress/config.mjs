@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/koi-site/',
   title: "О. К.",
   description: "Личный сайт и портфолио технического писателя Олега Копытко",
   themeConfig: {
